@@ -38,6 +38,10 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+}
 .shadow {
   box-shadow: 5px 5px 25px -10px #000000;
 }
@@ -242,6 +246,7 @@ html {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  text-decoration: none;
 }
 .product_img{
   /* flex: 9; */
@@ -272,5 +277,23 @@ html {
   /* flex: 3; */
   height: 25%;
   background-color: #b39c62;
+  padding: 10px;
+}
+.product_details .title{
+  color: var(--primary_color);
+  text-shadow: 2px 2px 7px rgba(27, 27, 27, 0.479);
+}
+.product_details .price{
+  color: var(--primary_color);
+  text-shadow: 2px 2px 7px rgba(27, 27, 27, 0.479);
+  font-weight: bold;
+  font-size: 1.3rem;
+
+}
+.product_details .ratting{
+  color: white;
+}
+.product_details .ratting .active{
+  color: var(--primary_color);
 }
 /* ==============Product====================== */
