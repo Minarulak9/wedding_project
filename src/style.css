@@ -248,18 +248,18 @@ html {
   font-family: "GFS Neohellenic", sans-serif;
   /* font-family: "Josefin Slab", serif; */
 }
-.texts .intro{
+.texts .intro {
   font-size: 1.5rem;
   text-shadow: 3px 3px 5px black;
-  padding:1rem 0;
+  padding: 1rem 0;
 }
-.about_text{
+.about_text {
   font-size: 1.2rem;
   line-height: 1.5;
   text-shadow: 3px 3px 5px black;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
-.highlight{
+.highlight {
   background-color: #c5003e;
   padding: 2px;
   border-radius: 8px;
@@ -276,30 +276,29 @@ html {
   font-family: freebsc;
   letter-spacing: 3px;
 }
-.social_links{
+.social_links {
   display: flex;
   list-style: none;
   gap: 10px;
 }
-.social_links .link{
+.social_links .link {
   background-color: rgb(29, 29, 29);
-  padding:10px 12px;
+  padding: 10px 12px;
   border-radius: 8px;
   box-shadow: inset 5px 5px 20px -8px rgb(90, 90, 90),
-  -5px -5px 20px -10px rgb(121, 121, 121);
-  transition: .4s;
+    -5px -5px 20px -10px rgb(121, 121, 121);
+  transition: 0.4s;
 }
-.social_links .link:hover{
+.social_links .link:hover {
   box-shadow: inset 5px 5px 20px -8px rgb(90, 90, 90),
-  -5px -5px 20px -10px rgb(121, 121, 121);
+    -5px -5px 20px -10px rgb(121, 121, 121);
   cursor: pointer;
-
 }
-.social_links .link:hover i{
+.social_links .link:hover i {
   transform: scale(1.2);
 }
-.social_links .link i{
-  transition: .4s;
+.social_links .link i {
+  transition: 0.4s;
   font-size: 1.5rem;
   color: rgb(219, 0, 0);
 }
@@ -380,3 +379,23 @@ html {
   color: var(--primary_color);
 }
 /* ==============Product====================== */
+/* remove google translate nav */
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  border-bottom: none !important;
+  box-shadow: none !important;
+  z-index: -100 !important;
+}
+body {
+  position: static !important;
+}
+#google_translate_element {
+  /* display: none !important; */
+}
+.goog-te-gadget .goog-te-combo {
+  padding: 2px 2px;
+  border: none;
+  background:var(--primary_color);
+  color: #b39c62;
+  outline: none;
+  font-size: 1rem;
+}

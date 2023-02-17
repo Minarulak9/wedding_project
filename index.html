@@ -25,10 +25,10 @@
             <li class="link"><a href="#about">About Us</a></li>
             <li class="link"><a href="#product">Product</a></li>
             <li class="link"><a href="#">Portfolio</a></li>
-            <li class="link"><a href="#">Language</a></li>
             <li class="link"><a href="#">Blog</a></li>
             <li class="link"><a href="#">Wedding Website</a></li>
             <li class="link"><a href="#">Contact Us</a></li>
+            <div id="google_translate_element"></div>
         </ul>
 
     </div>
@@ -138,7 +138,6 @@
         </div>
     </section>
 
-    <script src="./src/app.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
@@ -147,6 +146,14 @@
         });
 
     </script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+    <script src="./src/app.js"></script>
 </body>
 
 </html>

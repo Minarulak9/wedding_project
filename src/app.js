@@ -43,3 +43,22 @@ menuBtn.addEventListener("click", () => {
 sidebarCloseBtn.addEventListener("click", () => {
   sidebar.classList.remove("active");
 });
+
+// lang change feature
+
+// window.addEventListener("load", () => {
+//   setTimeout(() => {
+//     let langOption = document.querySelector(".goog-te-combo");
+//     console.log(langOption);
+//     let options = langOption.children;
+//     let opArr = Array(...options);
+//     for (let i = 0; i < opArr.length; i++) {
+//       if (opArr[i].value != "ar" && opArr[i].value != "en") {
+//         opArr[i].remove();
+//       }
+//       if (document.documentElement.lang == "en") {
+//         if (opArr[i].value == "en") opArr[i].setAttribute("selected", true);
+//       }
+//     }
+//   }, 1000);
+// });
