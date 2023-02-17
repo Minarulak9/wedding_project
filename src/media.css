@@ -1,6 +1,21 @@
-@media only screen and (max-width:650px){
-    .products_container{
-        padding: 2rem 1rem;
-        gap: 1rem;
-    }
+@media only screen and (max-width: 650px) {
+  .products_container {
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+    overflow: hidden;
+  }
+  .about_highlight {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .about_highlight {
+    font-size: 1rem;
+  }
+  .about_content{
+    padding: 1rem;
+  }
+  .about_content .texts{
+    padding: 2rem 1rem;
+  }
 }

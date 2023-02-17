@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impression Vivha</title>
     <link rel="shortcut icon" href="./img/logo_circle.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./src/style.css">
     <link rel="stylesheet" href="./src/media.css">
 </head>
@@ -45,14 +48,40 @@
         <div class="section_heading">
             <h2>About Us</h2>
         </div>
-
+        <div class="about_content">
+            <div data-aos="fade-up" class="img">
+                <div class="about_highlight">Fancy seeing you here!
+                    —we're so happy to begin married life with you by our side.</div>
+                <img src="./img/hart.png" alt="">
+            </div>
+            <div data-aos="fade-left" class="texts">
+                <p class="intro"><span class="highlight"> Welcome to our wedding website</span> We are Impression Vivha
+                    and Top most lehenga seller,
+                    and we are
+                    thrilled to share our love story with you.</p>
+                <p class="about_text">On this website, you will find all the information you need to know about our
+                    wedding, including the
+                    date, time, and location. We have also included details on accommodations for out-of-town guests,
+                    our gift registry, and other important details to ensure that everyone has a great time.</p>
+                <p class="about_text">
+                    We are so grateful to have you as a part of our lives, and we look forward to creating unforgettable
+                    memories with you on our wedding day. Thank you for visiting our website, and we can't wait to see
+                    you soon!</p>
+                <ul class="social_links">
+                    <li class="link"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="link"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="link"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li class="link"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </section>
     <section id="product">
         <div class="section_heading">
             <h2>Products</h2>
         </div>
         <div class="products_container">
-            <a href="#" class="product shadow">
+            <a data-aos="fade-up" href="#" class="product shadow">
                 <div class="product_img"><img src="./img/product1.png" alt=""></div>
                 <div class="product_details">
                     <div class="row">
@@ -70,7 +99,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="product shadow">
+            <a data-aos="fade-up" href="#" class="product shadow">
                 <div class="product_img"><img src="./img/product2.png" alt=""></div>
                 <div class="product_details">
                     <div class="row">
@@ -88,7 +117,7 @@
                     </div>
                 </div>
             </a>
-            <a href="#" class="product shadow">
+            <a data-aos="fade-up" href="#" class="product shadow">
                 <div class="product_img"><img src="./img/product3.png" alt=""></div>
                 <div class="product_details">
                     <div class="row">
@@ -110,6 +139,14 @@
     </section>
 
     <script src="./src/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            offset: 300,
+        });
+
+    </script>
 </body>
 
 </html>
